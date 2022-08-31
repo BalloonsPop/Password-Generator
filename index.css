@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+body{
+    background-color: #1C1C1C
+}
+
+.container{
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    margin: auto;
+}
+
+.titletext{
+    margin-bottom:0px;
+    padding: 115px 144px 10px 52px;
+    width: 360px;
+    height: 80px;
+    line-height: 40px;
+    font-weight: 800px;
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.whitetext{
+    color: #FFFFFF;
+}
+
+.greentext{
+    color: #4ADF86;
+}
+
+.subtitletext{
+    padding: 0px;
+    margin:0px;
+    font-family: Inter;
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 375px;
+    height: 28px;
+    margin: 0px 125px 50px 50px
+}
+
+.passwordbtn{
+    background-color: #10B981;
+    height: 40px;
+    width: 200px;
+    border-radius: 6px;
+    border: none;
+    padding: 9px 17px 9px 15px;
+    margin: 0px 310px 32px 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.linedivider{
+    border: 1px solid #2F3E53;
+    width: 446px;
+    height: 0px;
+    margin: 0px 50px 35px 50px;
+}
+
+.rectangles{
+    display: flex;
+    flex-direction: row;
+}
+
+.rectangle{
+    width: 200px;
+    height: 40px;
+    background: #273549;
+    border-radius: 6px;
+    font-family: Inter;
+    color: #55F991;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    
+}
+
+#rectanglebox{
+    margin: 0px 24px 10px 50px;
+}
+
+#passOne, #passTwo{
+    margin: 5px 5px 0px 5px;
+
+}
